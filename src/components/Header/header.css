@@ -1,0 +1,51 @@
+.Edu{
+    position: sticky;
+    top:0;
+    left:0;  
+    width:100%;    
+    z-index: 1; 
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 50px;
+   height:50px;
+   padding:2rem 7%;
+    
+}
+.nation{
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.Edu ul{
+    display:inline-flex;       
+    margin-top:30px; 
+     
+}
+li{
+    padding-right:50px;
+    text-decoration: none;
+    list-style-type:none;
+    
+}
+.link{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+.link:hover{
+    color:#2D3092;
+}
+.search{
+    float: right;
+    margin-top:60px;
+    margin-right:200px;
+    width:200px;
+    border:none;
+    border-bottom:2px solid black;
+}
+
+.log:hover{
+    color:blue;
+}
