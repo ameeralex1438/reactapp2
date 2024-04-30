@@ -15,8 +15,7 @@ function Header() {
         <ul>
             <li><Link to="/reactapp2" className='link'><b>Home</b></Link></li>
             <li><Link to="about" className='link'><b>About</b></Link></li>
-            <li><Link to="courses" className='link'><b>Courses</b></Link></li>
-           
+            <li><Link to="courses" className='link'><b>Courses</b></Link></li>           
             <li><Link to="contact" className='link'><b>Contact</b></Link></li>
             <li><IoPersonOutline style={{marginRight:10,color:'blue'}}/><label className='log'>Log in</label></li>
             <li><CiLock style={{marginRight:10,color:'blue'}}/><label className='log'>Register</label></li>
